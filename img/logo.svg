@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="149.166px" height="66.992px" viewBox="0 0 149.166 66.992" enable-background="new 0 0 149.166 66.992"
+	 xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="446.3213" y1="724.916" x2="594.4863" y2="724.916" gradientTransform="matrix(1 0 0 1 -445.3203 -690.9199)">
+	<stop  offset="0" style="stop-color:#2484C6"/>
+	<stop  offset="1" style="stop-color:#2484C6;stop-opacity:0"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" stroke="#080505" stroke-miterlimit="10" d="M120.809,1.021V1H60.905H1.001v59.352v6.641h59.904v-6.641
+	h59.071v0.207c16.123,0,29.189-13.332,29.189-29.779C149.166,14.615,136.543,1.472,120.809,1.021z"/>
+<text transform="matrix(1 0 0 1 14.1675 47.4316)" fill="#F2F2F7" font-family="'H2hdrM'" font-size="45">JS</text>
+<text transform="matrix(1 0 0 1 60.8843 45.1016)" font-family="'H2hdrM'" font-size="15">포트폴리오</text>
+<text transform="matrix(1 0 0 1 60.8843 45.1016)" fill="#FFFFFF" font-family="'H2hdrM'" font-size="15">포트폴리오</text>
+</svg>

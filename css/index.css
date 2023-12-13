@@ -1,0 +1,106 @@
+/* 상단영역 */
+header{
+
+  width: 1440px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.5);
+  height: 120px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+}
+header .wrap {
+  
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+header h1{
+   
+  background-image: url(../img/logo1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+}
+header h1 a{
+   
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  display: none;
+} 
+header ul{
+   
+  display: flex;
+  gap: 50px;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+header ul li{
+   
+}
+
+header ul li a{
+   
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+
+/*자식선택자 : 바로 아래있는 선택자*/
+header div.wrap>a{
+
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* 타이틀 영역 */
+div#title{
+
+  background-color: #eee;
+  background-size: cover;
+  background-position: center bottom;
+  background-image: url(../img/background.jpg);
+  height: 100vh;
+  box-sizing: border-box;
+  min-height: 600px;
+
+  border-bottom: 1px solid;
+}
+
+div#title div.wrap {   /* 하위선택자  */
+  width: 1440px;
+  margin: 0 auto;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*! align-items: center; */
+  gap: 40px;
+  height: 100vh;
+}
+
+div h2{
+
+  font-size: 60px;
+  margin-top: 70px;
+}
+div p{
+   
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+  line-height: 1.8;
+  font-family: 'Roboto', sans-serif;
+}
