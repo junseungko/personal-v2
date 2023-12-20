@@ -21,6 +21,7 @@ section#contact .wrap ul{
   height: 100%;
   margin-top: 100px;
   gap: 200px;
+  font-family: 'Roboto', sans-serif;
 }
 section#contact .wrap ul li{  
   line-height: 2;
@@ -30,4 +31,17 @@ section#contact .wrap ul li img{
   
   width: 100px;
   height: 100px;
+  animation-name: move;
+  animation-duration: 3s; 
 }
+@keyframes move{
+  from{
+    opacity: 0;
+    
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+

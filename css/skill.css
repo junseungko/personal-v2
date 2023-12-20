@@ -15,16 +15,18 @@ section#skill .wrap{
 }
 section#skill .wrap h2{
 
+  margin-bottom: 50px;
 }
 section#skill .wrap p{
 
 }
 section#skill .wrap ul{
 
-  margin-top: 100px;
-  gap: 100PX;
+  /*! margin-top: 100px; */
+  gap: 170px;
   flex-wrap: wrap;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 section#skill .wrap ul li::before{

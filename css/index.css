@@ -46,6 +46,10 @@ header ul li{
    
 }
 
+header ul li:hover a{
+  color: black;
+}
+
 header ul li a{
    
   color: whitesmoke;

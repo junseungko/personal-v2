@@ -29,16 +29,18 @@ section#portfolio .wrap ul li article{
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto;
-  border: 3px solid;
 }  
 section#portfolio .wrap ul li article img{
    
   width: 300px;
   height: 280px;
   overflow: hidden;
+  border: 1px solid #ccc; 
 }
 section#portfolio .wrap ul li div{
    
+  padding: 20px 10px;
+  font-family: 'Roboto', sans-serif;
 }
 section#portfolio .wrap ul li div h3{
    
@@ -54,9 +56,10 @@ section#portfolio .wrap ul li div p{
 }
 section#portfolio .wrap ul li div ul{
      
-  width: 300px;
+  width: 320px;
   height: 120px;
   margin-top: 20px;
+  gap: 5px;
 }
 section#portfolio .wrap ul li div ul li{
    
@@ -93,6 +96,8 @@ section#portfolio .wrap aside a:nth-child(1){
   background-image: url(../img/arrowback.svg);
   background-repeat: no-repeat;
   background-position: center;
+  bottom: 100px;
+  background-color: #0000ff45;
 }
 section#portfolio .wrap aside a:nth-child(2){
   
@@ -107,4 +112,6 @@ section#portfolio .wrap aside a:nth-child(2){
   background-image: url(../img/arrowforward.svg);
   background-repeat: no-repeat;
   background-position: center;
+  bottom: 100px;
+  background-color: #0000ff45;
 }
