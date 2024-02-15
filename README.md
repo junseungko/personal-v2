@@ -27,17 +27,18 @@
 - HITEjinro https://junseungko.github.io/HITEjinro/
  
 ## 스크린샷 또는 데모(포트폴리오 웹사이트의 스크린샷을 추가)
-![pf1](https://github.com/pageservice/personal/assets/71798491/040b7316-5c4c-4a09-b7e8-6c54d60ec832)
-![pf2](https://github.com/pageservice/personal/assets/71798491/1a7c723b-1e1b-4cb6-9f45-6b17b89482e9)
+
 ![pf1-ACCUNIQ](https://github.com/junseungko/personal-v2/assets/150096242/1bc5f902-5f05-4be3-8060-b55367ad562a)
-
-
-![ww](https://github.com/pageservice/personal/assets/71798491/30c357e8-d39b-42e6-9c30-0db7706f73d4)
+![pf2-Lpoint](https://github.com/junseungko/personal-v2/assets/150096242/cbde5d76-f2bf-4815-8162-a9be09cbf778)
+![pf3-HBpaper](https://github.com/junseungko/personal-v2/assets/150096242/bf68ce04-a6c6-41bf-bd41-f583d308ab33)
+![pf4-Hitejinro](https://github.com/junseungko/personal-v2/assets/150096242/c53341ba-978f-4a7c-bf6f-f9cddc7b99b3)
 
 
 
 ## 작성자 정보
 (이메일 주소나 연락처 정보를 추가)
+Email: sexylovejun21@gmail.com
+
 
 ## 향후 계획 (선택 사항)
 (추가적인 기능 개발, 디자인 개선, 사용자 피드백 수렴 등)
