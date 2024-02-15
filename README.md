@@ -37,7 +37,7 @@
 ![pf4-Hitejinro](https://github.com/junseungko/personal-v2/assets/150096242/c53341ba-978f-4a7c-bf6f-f9cddc7b99b3)
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left" style="white-space: pre-line; display: flex; gap: 20px;">
+<p align="left" style="white-space: pre-line; display: flex;">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
