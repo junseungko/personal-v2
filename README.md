@@ -37,7 +37,8 @@
 ![pf4-Hitejinro](https://github.com/junseungko/personal-v2/assets/150096242/c53341ba-978f-4a7c-bf6f-f9cddc7b99b3)
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left">
+```bash
+<p align="left" style="white-space: pre-line; display: flex; gap: 20px;">
  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
  </a>
@@ -69,6 +70,7 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/>
  </a>
 </p>
+```
 
 
 ## 작성자 정보
