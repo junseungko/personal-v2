@@ -1,0 +1,71 @@
+@media screen and (max-width:768px){
+/* 헤더   */
+  header .wrap{    
+  width: 100%;
+  }
+  header h1{  
+  margin-left: 20px;
+  }
+  header ul{   
+  display: none;
+  }
+  header div.wrap > a{ 
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  }
+/* 타이틀   */
+  div#title div.wrap{
+    
+  width: 100%;
+  padding: 0 20px;
+  }
+/* 색션   */
+  section#about{
+  width: 100%;
+  padding: 0 20px;
+  }
+  section#about .wrap{
+  width: 100%;
+  }
+  section#about .wrap div{ 
+  width: 100%;
+  }
+  section#about .wrap p{
+  font-size: 15px;
+  }
+  section#about .wrap ul{
+  font-size: 15px;
+  }
+/* 스킬   */
+  section#skill .wrap{
+  padding: 0 20px;
+  }
+  section#skill .wrap ul{
+  gap: 50px;
+  }
+/* 포트폴리오   */
+  section#portfolio .wrap{
+  width: 100%;
+  padding: 0 20px;
+  }
+  section#portfolio .wrap ul li:nth-child(1){
+  width: 100%;
+  }
+  section#portfolio .wrap ul li:nth-child(2){
+  display: none;
+  }
+/* 컨택   */
+  section#contact .wrap{  
+  width: 100%;
+  padding: 0 20px;
+  }
+  section#contact .wrap ul{
+  gap: 50px;
+  }
+/* footer   */
+  footer{
+    
+  height: 100%;
+  }
+}

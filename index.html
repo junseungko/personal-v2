@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>고준승's 개인홈페이지</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/common.css">
 	<!--//구글폰트//-->
@@ -19,6 +20,68 @@
 	<link rel="stylesheet" href="css/contact.css">
 	<link rel="stylesheet" href="css/aside.css">
 	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
+   <!-- slick -->
+	 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+	 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	 <script type="text/javascript">
+			  $(document).ready(function(){
+					$('section#portfolio .wrap ul.grid').slick({
+						 infinite: true,
+						 slidesToShow: 2,
+						 slidesToScroll: 1,
+						 autoplay: true,
+						 autoplaySpeed: 3000,
+						 speed:4000,
+						 dots:false,
+						 arrows:true,
+						 responsive:[
+                    {
+                    breakpoint: 1201,
+                    settings: {
+                        infinite: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                        speed:1000,
+                        dots:false,
+                        arrows:false,
+                    }
+                    }
+                ]   
+					});
+					$(document).ready(function(){
+           		 	$('section#contact .wrap ul').slick({	
+							infinite: true,
+							slidesToShow: 2,
+							slidesToScroll: 1,
+							autoplay: true,
+							autoplaySpeed: 3000,
+							speed:1000,
+							dots:false,
+							arrows:true,
+							responsive:[
+								{
+								breakpoint: 1201,
+								settings: {
+										infinite: true,
+										slidesToShow: 2,
+										slidesToScroll: 1,
+										autoplay: true,
+										autoplaySpeed: 2000,
+										speed:1000,
+										dots:false,
+										arrows:false,
+								}
+							}
+							]   
+						});
+					 });
+			});
+	 </script>
 </head>
 <body>
 	<!-- 상단영역 -->
@@ -87,7 +150,7 @@
 			<div class="wrap paddingT50 paddingB50">
 				<h2 class="h2">포트폴리오</h2>
 				<p class="p hide">제가 작업한 기업체 홈페이지 결과물입니다.</p>
-				<ul class="flex between">
+				<ul class="flex between grid">
 					<li class="flex between">
 						<article><img src="img/accuniq.JPG" alt="	아큐닉사이트"></img>
 						<div class="text">
@@ -100,7 +163,7 @@
 								<li>제작100%</li>
 							</ul>
 							<span>
-								<button>상세보기</button>
+								<button><a href="https://junseungko.github.io/accuniq/">Github</a></button>
 								<button><a href="https://www.accuniq.com/kr/index.php">홈페이지</a></button>
 							</span>
 						</div>
@@ -118,8 +181,44 @@
 								<li>제작100%</li>
 							</ul>
 							<span>
-								<button>상세보기</button>
+								<button><a href="https://junseungko.github.io/Lpoint/">Github</a></button>
 								<button><a href="https://www.lpoint.com/">홈페이지</a></button>
+							</span>
+						</div>
+						</article>
+					</li>
+					<li class="flex between">
+						<article><img src="img/hbpaper.jpg" alt="	엘포인트사이트"></img>
+						<div class="text">
+							<h3 class="h3"> HBpaper</h3>
+							<p>기업체 홈페이지</p>
+							<ul class="flex between">
+								<li>pc</li>
+								<li>반응형</li>
+								<li>코딩</li>
+								<li>제작100%</li>
+							</ul>
+							<span>
+								<button><a href=" https://junseungko.github.io/pf4hbpaper-re/">Github</a></button>
+								<button><a href="http://hbpaper.kr/">홈페이지</a></button>
+							</span>
+						</div>
+						</article>
+					</li>
+					<li class="flex between">
+						<article><img src="img/hitejinro.jpg" alt="	엘포인트사이트"></img>
+						<div class="text">
+							<h3 class="h3"> Hitejinro</h3>
+							<p>기업체 홈페이지</p>
+							<ul class="flex between">
+								<li>pc</li>
+								<li>반응형</li>
+								<li>코딩</li>
+								<li>제작100%</li>
+							</ul>
+							<span>
+								<button><a href="https://junseungko.github.io/HITEjinro/">Github</a></button>
+								<button><a href="https://hitejinro.com/index.asp">홈페이지</a></button>
 							</span>
 						</div>
 						</article>

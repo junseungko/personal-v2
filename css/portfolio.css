@@ -7,33 +7,36 @@ section#portfolio{
   box-sizing: border-box;
 }
 section#portfolio .wrap{
+  height: 100%;
 }
 section#portfolio .wrap h2{
    
+  margin-bottom: 50px;
 }
 section#portfolio .wrap p{
    
 }
 
-section#portfolio .wrap ul{
+section#portfolio .wrap ul {
   
-  margin-top: 100px;
 }
 section#portfolio .wrap ul li{  
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
-  
 }
+
 section#portfolio .wrap ul li article{
 
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
+  width: 100%;
 }  
+
 section#portfolio .wrap ul li article img{
    
-  width: 300px;
-  height: 280px;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   border: 1px solid #ccc; 
 }
@@ -56,16 +59,11 @@ section#portfolio .wrap ul li div p{
 }
 section#portfolio .wrap ul li div ul{
      
-  width: 320px;
-  height: 120px;
-  margin-top: 20px;
-  gap: 5px;
 }
 section#portfolio .wrap ul li div ul li{
    
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   border: 2px solid;
-  border-radius: 20px;
   color: gray;
   line-height: 2;
 }
@@ -98,6 +96,7 @@ section#portfolio .wrap aside a:nth-child(1){
   background-position: center;
   bottom: 100px;
   background-color: #0000ff45;
+  top: -550px;
 }
 section#portfolio .wrap aside a:nth-child(2){
   
@@ -114,4 +113,10 @@ section#portfolio .wrap aside a:nth-child(2){
   background-position: center;
   bottom: 100px;
   background-color: #0000ff45;
+  top: -550px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
 }
