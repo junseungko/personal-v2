@@ -22,11 +22,21 @@
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("footer a").click(function(){
+                $("html,body").animate({scrollTop:0},1000);
+					 
+				});
+			
+			});
+		
+  </script> 
    <!-- slick -->
-	 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-	 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-	 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	 <script type="text/javascript">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript">
 			  $(document).ready(function(){
 					$('section#portfolio .wrap ul.grid').slick({
 						 infinite: true,
@@ -114,14 +124,15 @@
 					          아직은 기초 지식을 배우는 초년생이지만 단계별로 배움을 이어나가<br>
 				             사용자가 쉽고 빠르게 경험하고 즐길 수 있는 웹개발을 할 수 있도록 노력하겠습니다.</p>
 				<div class="flex between">
-					<img src="img/photo.jpg" alt="제 사진입니다">
+					<img src="img/photo.JPG" alt="제 사진입니다">
 					<ul>
 						<li>Name: 고준승 (a.k.a JS)</li>
 						<li>MBTI: ESFP</li>
-							 Energetic    : 열정적으로 프로젝트를 수행하고<br>
-							 Systematic   : 체계적으로 디자인 레이아웃을 구성하고<br>
-							 Facinating   : 매력적인 폰트와 이미지를 활용하여 사용자 경험을 높일 수 있는<br>
-							 Publisher    : 웹퍼블리셔가 될 수 있도록 노력하겠습니다.<br>
+							 <p>	Energetic    : 열정적으로 프로젝트를 수행하고 <br>
+									Systematic   : 체계적으로 디자인 레이아웃을 구성하고 <br>
+									Facinating   : 매력적인 폰트와 이미지를 활용하여 사용자 경험을 높일 수 있는 <br>
+									Publisher    : 웹퍼블리셔가 될 수 있도록 노력하겠습니다.
+							</p>
 						<li>Where to live: 성남 분당</li>
 						<li>Education    : 이젠모란 UX/UI Web Publisher과정 수료</li>
 					</ul>
@@ -152,7 +163,7 @@
 				<p class="p hide">제가 작업한 기업체 홈페이지 결과물입니다.</p>
 				<ul class="flex between grid">
 					<li class="flex between">
-						<article><img src="img/accuniq.JPG" alt="	아큐닉사이트"></img>
+						<article><img src="img/accuniq.JPG" alt="	아큐닉사이트">
 						<div class="text">
 							<h3 class="h3">셀바스헬스케어 아큐닉</h3>
 							<p>기업체 홈페이지</p>
@@ -170,7 +181,7 @@
 						</article>
 					</li>
 					<li class="flex between">
-						<article><img src="img/lpoint.JPG" alt="	엘포인트사이트"></img>
+						<article><img src="img/lpoint.JPG" alt="	엘포인트사이트">
 						<div class="text">
 							<h3 class="h3"> 엘포인트</h3>
 							<p>기업체 홈페이지</p>
@@ -188,7 +199,7 @@
 						</article>
 					</li>
 					<li class="flex between">
-						<article><img src="img/hbpaper.jpg" alt="	엘포인트사이트"></img>
+						<article><img src="img/hbpaper.jpg" alt="	HBpaper사이트">
 						<div class="text">
 							<h3 class="h3"> HBpaper</h3>
 							<p>기업체 홈페이지</p>
@@ -206,7 +217,7 @@
 						</article>
 					</li>
 					<li class="flex between">
-						<article><img src="img/hitejinro.jpg" alt="	엘포인트사이트"></img>
+						<article><img src="img/hitejinro.jpg" alt="	하이트진로사이트">
 						<div class="text">
 							<h3 class="h3"> Hitejinro</h3>
 							<p>기업체 홈페이지</p>
