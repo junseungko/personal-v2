@@ -1,5 +1,9 @@
-@media screen and (max-width:768px){
+@media screen and (max-width:1200px){
 /* 헤더   */
+  header {
+    
+  max-width: 100%;
+  }
   header .wrap{    
   width: 100%;
   }
@@ -7,17 +11,19 @@
   margin-left: 20px;
   }
   header ul{   
-  display: none;
+  display: flex;
+  margin: 0 auto;
   }
   header div.wrap > a{ 
   margin-right: 20px;
   width: 60px;
   height: 60px;
+  display: none;
   }
 /* 타이틀   */
   div#title div.wrap{
     
-  width: 100%;
+  max-width: 100%;
   padding: 0 20px;
   }
 /* 색션   */
@@ -42,7 +48,7 @@
   padding: 0 20px;
   }
   section#skill .wrap ul{
-  gap: 50px;
+  gap: 120px;
   }
 /* 포트폴리오   */
   section#portfolio .wrap{
