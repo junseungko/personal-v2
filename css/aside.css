@@ -9,9 +9,9 @@ aside ul{
 }
 aside ul li{
    
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
   /*! font-size: 0; */
   border: 1px solid #ccc;
   margin: 15px;
@@ -24,4 +24,5 @@ aside ul li:hover{
 }
 aside ul li a{
    
+  font-size: 20px;
 }
