@@ -73,32 +73,33 @@ header div.wrap>a{
 div#title{
 
   background-color: #eee;
-  background-size: cover;
+  background-size: contain;
   background-position: center bottom;
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background_1.jpg);
   height: 100vh;
   box-sizing: border-box;
   min-height: 600px;
 
   border-bottom: 1px solid;
+  background-repeat: no-repeat;
 }
 
 div#title div.wrap {   /* 하위선택자  */
   width: 1440px;
   margin: 0 auto;
-  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*! align-items: center; */
+  align-items: center;
   gap: 40px;
-  height: 100vh;
+  height: 100%;
 }
 
 div h2{
 
   font-size: 60px;
   /*! margin-top: 70px; */
+  color: #214487;
 }
 div p{
    
