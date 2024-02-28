@@ -15,7 +15,7 @@ aside ul li{
   /*! font-size: 0; */
   border: 1px solid #ccc;
   margin: 15px;
-  background-color: rgba(0,0,255,0.5);
+  background-color: #cc552f;
   text-align: center;
 }
 aside ul li:hover{

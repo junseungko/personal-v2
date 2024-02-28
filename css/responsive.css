@@ -61,6 +61,8 @@
   section#portfolio .wrap ul li:nth-child(2){
   display: none;
   }
+  section#portfolio .wrap ul li article{
+    
 /* 컨택   */
   section#contact .wrap{  
   width: 100%;
@@ -70,8 +72,10 @@
   gap: 50px;
   }
 /* footer   */
-  footer{
-    
+  footer{    
   height: 100%;
   }
+/* aside */
+  aside ul li{
+    display: none;
 }

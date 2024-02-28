@@ -100,7 +100,7 @@
                         autoplay: true,
                         autoplaySpeed: 2000,
                         speed:1000,
-                        dots:false,
+                        dots: true,
                         arrows:false,
                     }
                     }
@@ -135,12 +135,19 @@
 					 });
 			});
 	 </script>
+	 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	 <script>
+		$(document).ready(function(){
+			AOS.init();
+		});	
+	 </script>
 </head>
 <body>
 	<!-- 상단영역 -->
 	<header>
 		<div class="wrap">
-			<h1><a href="#">kjs portfolio</a></h1>
+			<h1 data-aos="zoom-in-up" data-aos-duration="2000"><a href="#">kjs portfolio</a></h1>
 				<ul>
 					<li><a href="#">about</a></li>
 					<li><a href="#" class="sasun">skill</a></li>
@@ -153,7 +160,7 @@
 	<!--타이틀영역-->
 	<div id="title">
 		<div class="wrap">
-			<h2>Welcome to JS portfolio</h2>
+			<h2 data-aos="fade-up" data-aos-duration="2000">Welcome to JS portfolio</h2>
 			<p>웹을 통해 새로운 경험을 디자인하는<br>
 				웹퍼블리셔</p>
 		</div>
@@ -162,7 +169,7 @@
 	<main>
 		<section id="about" class="paddingT50 paddingB50">
 			<div class="wrap paddingT50 paddingB50">
-				<h2>저를 소개합니다.</h2>
+				<h2 data-aos="flip-right" data-aos-duration="2000">저를 소개합니다.</h2>
 				<p class="p">안녕하세요 웹디자인과 웹코딩에 관심이 많은 웹퍼블리셔입니다.<br>
 					          아직은 기초 지식을 배우는 초년생이지만 단계별로 배움을 이어나가<br>
 				             사용자가 쉽고 빠르게 경험하고 즐길 수 있는 웹개발을 할 수 있도록 노력하겠습니다.</p>
@@ -184,25 +191,25 @@
 		</section>
 		<section id="skill" class="paddingT50 paddingB50">
 			<div class="wrap paddingT50 paddingB50">
-				<h2 class="h2">디자인 & 코딩 기술</h2>
+				<h2 data-aos="flip-right" data-aos-duration="2000" class="h2">디자인 & 코딩 기술</h2>
 				<p class="p hide">제가 배우고 익힌 기술입니다</p>
 				<ul class="list flex">
-					<li>HTML5</li>
-					<li>CSS3</li>
-					<li>jQuery</li>
-					<li>Javascript</li>
-					<li>젠코딩</li>
-					<li>SASS</li>
-					<li>웹표준</li>
-					<li>웹접근성</li>
-					<li>포토샵</li>
-					<li>일러스트레이터</li>
+					<li data-aos="flip-up" data-aos-delay="1000">HTML5</li>
+					<li data-aos="flip-up" data-aos-delay="1000">CSS3</li>
+					<li data-aos="flip-up" data-aos-delay="1000">jQuery</li>
+					<li data-aos="flip-up" data-aos-delay="1000">Javascript</li>
+					<li data-aos="flip-up" data-aos-delay="1000">젠코딩</li>
+					<li data-aos="flip-up" data-aos-delay="1500">SASS</li>
+					<li data-aos="flip-up" data-aos-delay="1500">웹표준</li>
+					<li data-aos="flip-up" data-aos-delay="1500">웹접근성</li>
+					<li data-aos="flip-up" data-aos-delay="1500">포토샵</li>
+					<li data-aos="flip-up" data-aos-delay="1500">일러스트레이터</li>
 				</ul>
 			</div>
 		</section>
 		<section id="portfolio" class="paddingT50 paddingB50">
 			<div class="wrap paddingT50 paddingB50">
-				<h2 class="h2">포트폴리오</h2>
+				<h2 data-aos="flip-right" data-aos-duration="2000" class="h2">포트폴리오</h2>
 				<p class="p hide">제가 작업한 기업체 홈페이지 결과물입니다.</p>
 				<ul class="flex between grid">
 					<li class="flex between">
@@ -285,7 +292,7 @@
 		</section>
 		<section id="contact" class="paddingT50 paddingB50">
 			<div class="wrap paddingT50 paddingB50">
-				<h2 class="h2">연락주세요.</h2>
+				<h2 data-aos="flip-right" data-aos-duration="2000" class="h2">연락주세요.</h2>
 				<p class="p">클라이언트의 피드백을 적극 수용하고 개선하여<br>
 				             사용자 중심의. 사용자를 위한. 웹을 디자인 해나가겠습니다<br>
 								 추가로 궁금하신 사항은 연락주세요.
